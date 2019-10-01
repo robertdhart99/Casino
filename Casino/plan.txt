@@ -1,0 +1,41 @@
+Plan of what i want it to do 
+do i use a interface? 
+log in as a person - save info from file 
+ pass is hashed - 
+database? 
+person class has user name  - money -
+	AI_person_BlackJack extends Person and has username (COM) money is -1 or infinint or something
+	player has username = password(hashed) - money - time played - Skill level - Prizes( if they have a prize they can change the gui colors)
+	Poker will have multiple AI_players_Poker with - username - money - Skill level 
+set skill level in gui- drop down menu 
+exit - which saves everything and writes to file - 
+can play black jack or poker 
+ if out of money - you can buy back in 
+
+all in a gui 
+can buy color schemes for gui with money 
+
+can see a scoreboard of what users have the most money - 
+
+should this be a website - i dont want it to be 
+2 levels of difficulty with AI - basic and advanced 
+
+classes
+Application runner - main 
+Person 
+	AIpersonBlackjack
+	AipersonPoker
+	Player
+card class with 52 of them in a deck - object array list 
+
+methods 
+shuffle
+dealBlackjack
+dealPoker
+log in 
+hash pass 
+win/loss 
+currentBalance 
+
+game panel - dialog box - exit button - bet - card window(label)
+do i need a interface? like for removing a card after its been used in a deal.
